@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Week 5: Tree-Based Models & Ensembles
 
 This repository contains the complete implementation of the **Week 5 Assignment: Tree-Based Models & Ensembles** for the Fusemachines AI Fellowship. The project focuses on predicting customer churn for a telecommunications firm using machine learning classification models, as well as predicting customer tenure using regression architectures.
