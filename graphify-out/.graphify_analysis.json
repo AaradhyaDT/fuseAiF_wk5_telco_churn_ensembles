@@ -1,0 +1,105 @@
+{
+  "communities": {
+    "0": [
+      "aaradhya_master_v59_aaradhya_dev_tamrakar",
+      "aaradhya_master_v59_alpha_app",
+      "aaradhya_master_v59_fusemachines_ai_fellowship",
+      "aaradhya_master_v59_gcsbr",
+      "aaradhya_master_v59_telco_churn_ml_pipeline"
+    ],
+    "1": [
+      "aaradhya_master_v59_telco_churn_tree_ensemble",
+      "w5_project_guide_telco_churn_dataset",
+      "w5_project_guide_tree_based_models"
+    ],
+    "2": [
+      "aaradhya_master_v59_it4d_2026_paper",
+      "aaradhya_master_v59_text2sql_pipeline"
+    ]
+  },
+  "cohesion": {
+    "0": 0.4,
+    "1": 1.0,
+    "2": 1.0
+  },
+  "gods": [
+    {
+      "id": "aaradhya_master_v59_aaradhya_dev_tamrakar",
+      "label": "Aaradhya Dev Tamrakar",
+      "degree": 6
+    },
+    {
+      "id": "aaradhya_master_v59_telco_churn_tree_ensemble",
+      "label": "Telco Churn Tree-Based Ensemble Pipeline",
+      "degree": 3
+    },
+    {
+      "id": "aaradhya_master_v59_text2sql_pipeline",
+      "label": "Text-to-SQL Agentic Pipeline",
+      "degree": 2
+    },
+    {
+      "id": "w5_project_guide_tree_based_models",
+      "label": "Week 5 Project Guide: Tree-Based Models & Ensembles",
+      "degree": 2
+    },
+    {
+      "id": "w5_project_guide_telco_churn_dataset",
+      "label": "Telco Customer Churn Dataset",
+      "degree": 2
+    },
+    {
+      "id": "aaradhya_master_v59_fusemachines_ai_fellowship",
+      "label": "Fusemachines AI Fellowship",
+      "degree": 1
+    },
+    {
+      "id": "aaradhya_master_v59_gcsbr",
+      "label": "Gesture-Controlled Self-Balancing Robot (GCSBR)",
+      "degree": 1
+    },
+    {
+      "id": "aaradhya_master_v59_telco_churn_ml_pipeline",
+      "label": "Telco Customer Churn ML Pipeline",
+      "degree": 1
+    },
+    {
+      "id": "aaradhya_master_v59_alpha_app",
+      "label": "Alpha Android Super-App",
+      "degree": 1
+    },
+    {
+      "id": "aaradhya_master_v59_it4d_2026_paper",
+      "label": "IT4D 2026 Concept Paper",
+      "degree": 1
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Telco Churn Tree-Based Ensemble Pipeline",
+      "target": "Week 5 Project Guide: Tree-Based Models & Ensembles",
+      "source_files": [
+        "AARADHYA_MASTER_v59.md",
+        "W5_Project_Guide.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "Telco Churn Tree-Based Ensemble Pipeline",
+      "target": "Telco Customer Churn Dataset",
+      "source_files": [
+        "AARADHYA_MASTER_v59.md",
+        "W5_Project_Guide.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories"
+    }
+  ],
+  "tokens": {
+    "input": 17831,
+    "output": 1818
+  }
+}
